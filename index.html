@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Akshay Naik, an entry-level software engineer building thoughtful web applications." />
+    <title>Akshay Naik | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Akshay Naik home">AN<span>.</span></a>
+      <button class="menu-button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Work</a>
+        <a href="#skills">Skills</a>
+        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="eyebrow"><span></span> Available for entry-level roles</div>
+        <p class="hero-kicker">Hello, I'm Akshay.</p>
+        <h1>I build useful digital experiences for people and teams.</h1>
+        <figure class="hero-portrait">
+          <img src="akshay-naik.png" alt="Akshay Naik" />
+        </figure>
+        <div class="hero-bottom">
+          <p>Computer Science Engineering graduate based in Bengaluru, focused on responsive web applications, reliable interfaces, and continuous learning.</p>
+          <a class="round-link" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <section id="about" class="about section section-rule reveal">
+        <p class="section-label">01 / About</p>
+        <div class="about-content">
+          <h2>Early-career engineer with a practical, product-minded approach.</h2>
+          <div>
+            <p>I enjoy turning an idea into a clear, approachable web experience. My foundation spans Java, Python, JavaScript, databases, core computer-science concepts, and modern development workflows.</p>
+            <p>During my web-development internship at Edutainer, I built responsive interfaces, connected PHP back ends with MySQL databases, and collaborated through Git and GitHub.</p>
+            <a class="text-link" href="www.linkedin.com/in/akshay-naik-7b54a0325" target="_blank" rel="noreferrer">View LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section section-rule reveal">
+        <div class="section-heading">
+          <p class="section-label">02 / Selected work</p>
+          <p class="muted">A project that shows how I think through a user flow, not just how I write code.</p>
+        </div>
+        <article class="project-card">
+          <div class="project-visual" aria-label="Abstract job portal interface illustration">
+            <div class="window">
+              <div class="window-top"><i></i><i></i><i></i><b>JobConnect</b></div>
+              <div class="mock-shell">
+                <aside><strong>JC</strong><span></span><span></span><span></span><span></span></aside>
+                <div class="mock-content">
+                  <div class="mock-welcome"><span>Welcome back</span><b>Find your next opportunity.</b></div>
+                  <div class="mock-search"></div>
+                  <div class="mock-job"><em></em><div><b>Frontend Developer</b><span>Pixel Labs · Bengaluru</span></div><button>Apply</button></div>
+                  <div class="mock-job"><em></em><div><b>Java Developer</b><span>Orbit Systems · Remote</span></div><button>Apply</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-copy">
+            <div class="project-meta"><span>01</span><span>React web application</span><span>2026</span></div>
+            <h3>JobConnect</h3>
+            <p>A job-portal interface that helps job seekers browse opportunities, save roles, and track applications, while enabling recruiters to publish and manage listings.</p>
+            <ul class="feature-list">
+              <li>Created login, registration, and protected navigation flows.</li>
+              <li>Built search and location filtering, job-detail pages, saved jobs, and application tracking.</li>
+              <li>Implemented a recruiter workspace to create, edit, and remove job postings.</li>
+            </ul>
+            <div class="stack"><span>React</span><span>Vite</span><span>React Router</span><span>JavaScript</span><span>CSS</span><span>Local Storage</span></div>
+            <a class="project-link" href="https://github.com/Akshay200408/job-portal" target="_blank" rel="noreferrer">View source code <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </section>
+
+      <section id="skills" class="skills section section-rule reveal">
+        <p class="section-label">03 / Toolkit</p>
+        <div class="skill-grid">
+          <div><h3>Languages</h3><p>Java, Python, JavaScript, C, PHP, SQL</p></div>
+          <div><h3>Web & data</h3><p>React, Flask, HTML5, CSS3, MySQL, MongoDB, REST APIs</p></div>
+          <div><h3>Foundations</h3><p>Data Structures & Algorithms, OOP, DBMS, Operating Systems, Networks</p></div>
+          <div><h3>Tools</h3><p>Git, GitHub, Firebase, Google Cloud, Jupyter Notebook, VS Code</p></div>
+        </div>
+      </section>
+
+      <section class="experience section section-rule reveal">
+        <p class="section-label">04 / Experience & education</p>
+        <div class="timeline">
+          <div class="timeline-row"><div><span class="timeline-date">2022 - 2026</span><h3>B.E. in Computer Science & Engineering</h3><p>Anjuman Institute of Technology and Management, Bhatkal</p></div><span class="timeline-type">Education</span></div>
+          <div class="timeline-row"><div><span class="timeline-date">Internship</span><h3>Web Development Intern</h3><p>Edutainer - responsive web interfaces, PHP and MySQL integration, Git-based collaboration.</p></div><span class="timeline-type">Experience</span></div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section reveal">
+        <p class="section-label">05 / Contact</p>
+        <h2>Let's build something useful.</h2>
+        <p>I'm seeking an entry-level software engineering or IT opportunity where I can contribute, learn quickly, and grow with a strong team.</p>
+        <div class="contact-links">
+          <a href="mailto:akshay.r.naik60@gmail.com">akshay.r.naik60@gmail.com <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/Akshay200408" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="www.linkedin.com/in/akshay-naik-7b54a0325" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer><span>© <span id="year"></span> Akshay Naik</span><span>Designed with clarity and curiosity.</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
